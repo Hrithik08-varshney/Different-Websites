@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+.div_one{
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+}
+.div_content{
+    width: 500px;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+}
+#heading-cont{
+   padding-top: 25%;
+}
+#heading-cont h1{
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+#heading-cont h2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: #888;
+}
+.btn{
+    margin-top: 10px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    border: 1px #ccc solid;
+    font-size: 16px;
+    background-color: white;
+}
+.btn:hover{
+    background: #eee;
+}
+#img-1{
+    width: 500px;
+    height: 100vh;
+}
+.title{
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}
+.title h{
+    border: 1px groove white;
+    font-weight: bold;
+    padding: 10px;
+    border-top: hidden;
+    border-bottom: hidden;
+}
+.pic-div{
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+.pic{
+    width: 1000px;
+    height: 500px;
+}
+.pic-cont{
+    width: 1000px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.pic-cont h3{
+    padding-bottom: 10px;
+}
+.foot{
+    text-align: center;
+    padding: 50px;
+}
+.foot p{
+    padding-top: 10px;
+}
